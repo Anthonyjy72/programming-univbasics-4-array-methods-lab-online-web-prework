@@ -1,6 +1,5 @@
 def using_include(array, element)
-  colors = ["red", "gold", "green", "black"]
-  array.include?("red")
+  array.include?(element)
 end
 
 def using_sort(array)
